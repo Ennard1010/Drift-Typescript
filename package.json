@@ -1,0 +1,31 @@
+{
+	"type": "commonjs",
+	"scripts": {
+		"start": "ts-node -r dotenv/config jit.ts",
+		"ws-test": "ts-node websocket_test.ts"
+	},
+	"dependencies": {
+		"@coral-xyz/anchor": "0.29.0",
+		"@drift-labs/jit-proxy": "0.10.473",
+		"@drift-labs/sdk": "2.86.0-beta.33",
+		"@grpc/grpc-js": "^1.10.11",
+		"@project-serum/anchor": "^0.26.0",
+		"@solana-developers/helpers": "^2.3.0",
+		"@solana/spl-token": "^0.4.6",
+		"@solana/web3.js": "^1.91.7",
+		"@types/bn.js": "^5.1.5",
+		"@types/bs58": "^4.0.4",
+		"@types/decimal.js": "^7.4.0",
+		"@types/lodash": "^4.17.0",
+		"@types/node": "^20.11.30",
+		"@types/node-fetch": "^2.6.11",
+		"@types/ws": "^8.5.10",
+		"@zetamarkets/sdk": "^1.40.0",
+		"dotenv": "^16.4.5",
+		"fs": "^0.0.1-security",
+		"jito-ts": "^4.1.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.3.3",
+		"ws": "^8.17.0"
+	}
+}
